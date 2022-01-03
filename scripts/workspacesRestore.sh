@@ -1,0 +1,1 @@
+mv package.json.original package.json
