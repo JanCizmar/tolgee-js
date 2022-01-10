@@ -3,6 +3,7 @@ name: Publish examples
 on:
   workflow_run:
     workflows: ['Dummy1']
+    branches: ['jancizmar/TG-428-example-publishing-commit-message']
     types:
       - completed
 jobs:
