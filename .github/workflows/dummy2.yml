@@ -3,7 +3,6 @@ name: Dummy 2
 on:
   workflow_run:
     workflows: ['Dummy1']
-    branches: ['jancizmar/TG-428-example-publishing-commit-message']
     types:
       - completed
 jobs:
