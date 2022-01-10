@@ -10,5 +10,6 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
          touch aaa.txt
+         git add .
          git commit -m "committed"
          git push
