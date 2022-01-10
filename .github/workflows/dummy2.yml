@@ -1,0 +1,13 @@
+name: Dummy 2
+
+on:
+  workflow_run:
+    workflows: ['Dummy1']
+    types:
+      - completed
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: echo ${{ github.event.commits[0].message }}

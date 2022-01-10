@@ -1,0 +1,11 @@
+name: Dummy1
+
+on:
+  push:
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: echo hello
