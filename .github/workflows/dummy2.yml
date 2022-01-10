@@ -1,4 +1,4 @@
-name: Publish examples
+name: Dummy 2
 
 on:
   workflow_run:
