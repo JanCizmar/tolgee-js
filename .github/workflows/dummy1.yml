@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-         touch aaa.txt
+         touch ccc.txt
          git config --global user.email "you@example.com"
          git config --global user.name "Your Name"
          git add .
